@@ -1,0 +1,11 @@
+healthbot/
+├── pages/
+│   ├── index.js         ← (Frontend chat UI)
+│   └── api/
+│       └── chat.js      ← (Backend API for OpenAI)
+├── public/
+│   └── favicon.ico      ← (Optional: bot icon)
+├── .env.local           ← (Your OpenAI API Key — will not go in GitHub)
+├── package.json         ← (Dependencies)
+├── vercel.json          ← (Optional, Vercel config)
+└── README.md            ← (Info/instructions)
